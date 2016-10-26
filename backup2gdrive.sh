@@ -5,6 +5,8 @@
 # https://github.com/prasmussen/gdrive
 # 
 
+
+
 grive="/home/user/BASH/gdrive"
 LOGFILE="/home/user/BASH/gdrive.log"
  
@@ -18,7 +20,7 @@ local my_folder_ID=$2
 # echo $my_folder_ID
 
 #for testing
- touch $my_file
+# touch $my_file
 
 if [ -f $my_file ] ; then
     #echo "file exist..."
